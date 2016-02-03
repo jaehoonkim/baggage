@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/jaehoonkim/baggage/parser"
 	"github.com/mitchellh/cli"
-	"gitlab.com/jaehoon/baggage/parser"
 )
 
 type NewCommand struct {
